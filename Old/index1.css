@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Releway;
+    src: url(Releway.ttf);
+}
+body {
+    font-family: 'Releway', sans-serif;
+    font-size: 90%;
+}
+
+
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    justify-content: space-around;
+    overflow:hidden;
+}

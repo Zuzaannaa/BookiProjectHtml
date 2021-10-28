@@ -1,0 +1,767 @@
+@font-face {
+  font-family: Releway;
+  src: url(Releway.ttf);
+}
+
+a {
+  text-decoration: none;
+  border-bottom: solid 1px transparent;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links a:link {
+  color: black;
+  border-top: 2px solid transparent;
+  padding-top: 25px;
+  overflow: hidden;
+  border-bottom: none;
+}
+
+.links a:visited {
+  color: #0065fca7;
+}
+.links a:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+  padding-top: 25px;
+  overflow: hidden;
+  border-bottom: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 100%;
+}
+
+header {
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.links {
+  display: inline-flex;
+  align-self: flex-end;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-flex;
+  padding-top: 20px;
+  margin-left: 0%;
+  margin-right: 60%;
+  margin-bottom: 25px;
+}
+
+.acc {
+  flex-basis: auto;
+  flex: 1;
+  justify-content: center;
+
+  padding: 20px 40px 0 0;
+  text-align: center;
+}
+
+.act {
+  flex-basis: auto;
+  flex: 1;
+  justify-content: center;
+
+  padding: 20px 0 0 40px;
+  text-align: center;
+  width: fixed;
+}
+
+.find {
+  font-size: 150%;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.find-p {
+  margin-left: 25px;
+}
+
+.search-box {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+i[class="fas fa-map-marker-alt"] {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: #e9e6e6d0;
+  border-radius: 12px 0 0 12px;
+  border: #e9e6e6d0;
+}
+
+.search {
+  background-color: #0065fc;
+  width: 100px;
+  font-size: 18px;
+  color: white;
+  border-radius: 0 12px 12px 0;
+  border: none;
+}
+
+.search-icon {
+  display: none;
+}
+
+.box {
+  font-weight: bold;
+  border: solid 2px #e9e6e6d0;
+  width: 16%;
+}
+
+::placeholder {
+  font-size: 120%;
+  color: black;
+  padding-left: 5px;
+}
+
+/* why does it work for section but not for .filters  */
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-left: 0%;
+}
+
+.filters {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.filters-h {
+  margin-top: 10px;
+}
+
+i[class="fas fa-money-bill-wave"] {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: #deebff;
+  border-radius: 50%;
+  border: #deebff;
+}
+
+i[class="fas fa-child"] {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: #deebff;
+  border-radius: 50%;
+  border: #deebff;
+}
+
+i[class="fas fa-heart"] {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: #deebff;
+  border-radius: 50%;
+  border: #deebff;
+}
+
+i[class="fas fa-dog"] {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: #deebff;
+  border-radius: 50%;
+  border: #deebff;
+}
+
+.cost,
+.family,
+.romantic,
+.pets {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+
+  margin-top: -48px;
+  margin-left: 30px;
+  margin-right: 45px;
+  padding: 12px 20px 12px 30px;
+  border: 2px solid #ccc;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-left: none;
+}
+/*why does it only work with 50 50 */
+i[class="fas fa-info"] {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 35px;
+  border-radius: 50%;
+  border: solid 2px #ced0d3;
+  color: blue;
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  margin-top: 2%;
+  padding: 12px 20px 12px 0;
+  font-weight: lighter;
+  margin-left: 25px;
+}
+
+.acc-card-h {
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.acc-card-p {
+  margin-top: 4px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.acc-mars {
+  float: left;
+  background-color: #f1f1f1;
+  width: 60%;
+  border-radius: 12px;
+  margin-left: 25px;
+}
+
+.acc-title {
+  margin: 30px 0 10px 30px;
+  width: 90%;
+  font-weight: bolder;
+  font-size: 100%;
+}
+
+.popular {
+  float: right;
+  background-color: #f1f1f1;
+  width: 33%;
+  border-radius: 12px;
+  margin-right: 25px;
+}
+
+.popular-title {
+  margin: 30px 0 10px 45px;
+  font-weight: bolder;
+  font-size: 100%;
+}
+
+.acc-card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  box-shadow: 5px 5px 8px 5px rgba(220, 220, 220, 1);
+  background-color: white;
+  border-radius: 15px;
+  margin: 15px 15px 15px 30px;
+  padding: 7px;
+}
+
+.acc-image {
+  width: 220px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.rating {
+  width: 50%;
+}
+
+.more {
+  font-weight: bold;
+  width: 90%;
+  margin: 40px 30px 45px 30px;
+}
+.more a:link {
+  color: black;
+  border-top: none;
+  overflow: hidden;
+}
+.more a:hover {
+  color: black;
+  border-top: none;
+}
+
+more a:visited {
+  color: black;
+}
+
+/* popular */
+
+.pop-card-h {
+  font-size: 17px;
+}
+
+.pop-card-p {
+  font-size: 14px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+}
+
+.popular-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  box-shadow: 5px 5px 8px 5px rgba(220, 220, 220, 1);
+  background-color: white;
+  border-radius: 15px;
+  margin: 15px 45px 23px 45px;
+  padding: 10px;
+}
+
+.pop-image {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 12px 0 0 12px;
+  margin-right: 25px;
+}
+
+i[class="fas fa-star"] {
+  font-size: 11px;
+  color: #0065fc;
+}
+.gray-star {
+  font-size: 11px;
+  color: #a4a29b;
+}
+
+/*activities*/
+
+.activities {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 16px;
+  margin-top: 10px;
+  background-color: white;
+}
+/*
+.activities-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: white;
+} */
+
+.act-card-1 {
+  /*display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 10px 19% 5px 5%;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0px 5px 15px 0px rgba(220, 220, 220, 1); */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  box-shadow: 5px 5px 8px 5px rgba(220, 220, 220, 1);
+  background-color: white;
+  border-radius: 12px;
+  margin: 10px 25px 15px 25px;
+  padding: 0 0 10px 0;
+}
+
+.act-card-2 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  box-shadow: 5px 5px 8px 5px rgba(220, 220, 220, 1);
+  background-color: white;
+  border-radius: 12px;
+  margin: 10px 25px 15px 25px;
+  padding: 0 0 10px 0;
+}
+
+.act-card-3 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  box-shadow: 5px 5px 8px 5px rgba(220, 220, 220, 1);
+  background-color: white;
+  border-radius: 12px;
+  margin: 10px 25px 15px 25px;
+  padding: 0 0 15px 0;
+}
+
+.act-card-4 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  box-shadow: 5px 5px 8px 5px rgba(220, 220, 220, 1);
+  background-color: white;
+  border-radius: 12px;
+  margin: 10px 25px 15px 25px;
+  padding: 0 0 10px 0;
+}
+
+.act-card-h {
+  padding: 5px 0 5px 10px;
+  font-weight: bold;
+}
+
+.act-img-1 {
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
+  width: 250px;
+  border-radius: 12px;
+}
+
+.act-img-2 {
+  object-fit: cover;
+  object-position: center;
+  height: 150px;
+  width: 280px;
+  border-radius: 12px;
+}
+
+.act-img-3 {
+  object-fit: cover;
+  object-position: center;
+  height: 120px;
+  width: 280px;
+  border-radius: 12px;
+}
+
+.acc-2-cards {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 12px;
+  margin: 10px 25px 15px 25px;
+  padding: 0 0 10px 0;
+}
+
+.act-img-4 {
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
+  width: 293px;
+  border-radius: 12px;
+  padding-right: 0;
+}
+
+.activities-title {
+  margin: 15px 0 0 20px;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 120%;
+}
+
+/*----FOOTER-----*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 15px 0 15px 0;
+  padding: 0;
+}
+
+li {
+  line-height: 30px;
+}
+
+/*-----mobile------*/
+
+@media only screen and (max-width: 768px) {
+  .links {
+    display: flex;
+    justify-content: space-between;
+    width: 190%;
+    font-size: 120%;
+  }
+
+  .body {
+    width: 100%;
+  }
+
+  .links a:link {
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 50px;
+    overflow: hidden;
+    border-top: none;
+  }
+
+  .links a:active {
+    color: black;
+    border-bottom: 2px solid rgb(224, 220, 220);
+    padding-bottom: 50px;
+    overflow: hidden;
+    border-top: none;
+  }
+  .links a:hover {
+    color: #0065fc;
+    border-bottom: 2px solid #0065fc;
+    padding-bottom: 50px;
+    overflow: hidden;
+    border-top: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 125%;
+    margin-left: 135px;
+  }
+  nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+  .acc-mars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150%;
+  }
+
+  .find {
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 15px;
+    width: 175%;
+    font-size: 300%;
+  }
+
+  .find-p {
+    margin-left: 15px;
+    font-size: 175%;
+  }
+
+  .search-box {
+    margin-left: 15px;
+    margin-top: 50px;
+    size: 200%;
+    width: 150%;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 150%;
+  }
+  .search-icon {
+    display: block;
+    background-color: #0065fc;
+    width: 80px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  i[class="fas fa-map-marker-alt"] {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: #e9e6e6d0;
+    border-radius: 12px 0 0 12px;
+    border: #e9e6e6d0;
+  }
+
+  .filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .filters-h {
+    margin-right: 200px;
+    font-weight: bold;
+    font-size: 250%;
+  }
+
+  .filter-1 {
+    flex: 1;
+    order: 2;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
+  .filter-2 {
+    flex: 1;
+    order: 3;
+    margin-right: 120px;
+    margin-bottom: 15px;
+  }
+
+  .filter-3 {
+    flex: 1;
+    order: 2;
+    margin-bottom: 15px;
+  }
+
+  .filter-4 {
+    flex: 1;
+    order: 4;
+    margin-right: 120px;
+  }
+
+  .info {
+    order: 5;
+  }
+
+  .grey-boxes {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .acc-mars {
+    background-color: white;
+  }
+
+  .acc-card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 8px 5px gray;
+    background-color: white;
+    border-radius: 15px;
+    margin: 30px 50px 15px 50px;
+    padding: 0;
+  }
+
+  .acc-image {
+    width: 410px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .acc-card-h {
+    padding-left: 10px;
+  }
+
+  .acc-card-p {
+    padding-left: 10px;
+  }
+
+  .popular-card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 8px 5px gray;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px 45px 30px 45px;
+    padding: 10px;
+  }
+
+  .pop-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px 0 0 12px;
+    margin-right: 30px;
+  }
+
+  .rating {
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .popular {
+    width: 120%;
+  }
+
+  .act-img-1 {
+    object-fit: cover;
+    object-position: center;
+    height: 180px;
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .act-img-2 {
+    object-fit: cover;
+    object-position: center;
+    height: 180px;
+    width: 680px;
+    border-radius: 12px;
+  }
+
+  .act-img-3 {
+    object-fit: cover;
+    object-position: center;
+    height: 180px;
+    width: 680px;
+    border-radius: 12px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+    width: 120%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+
+  ul {
+    padding-left: 30px;
+  }
+
+  .footer-h {
+    padding-left: 30px;
+    font-size: 20px;
+  }
+}
