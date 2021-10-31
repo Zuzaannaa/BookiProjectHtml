@@ -500,6 +500,10 @@ footer {
   overflow: hidden;
 }
 
+.footer-h {
+  font-size: 19px;
+}
+
 ul {
   list-style-type: none;
   margin: 15px 0 15px 0;
