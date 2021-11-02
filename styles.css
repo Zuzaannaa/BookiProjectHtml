@@ -733,6 +733,9 @@ li {
 
   .popular-title {
     width: 70%;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 80%;
   }
 
   .pop-card-h {
@@ -742,26 +745,61 @@ li {
   .pop-card-p {
     font-size: 70%;
     margin-right: 50px;
+    margin-bottom: 5px;
   }
 
   .rating {
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0;
+  }
+
+  .more {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
+  .activities-title {
+    font-size: 80%;
+    margin-bottom: 0;
+  }
+
+  .act-card-1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 8px 5px gray;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 5px 25px 20px;
+    padding: 0;
+    width: 300px;
   }
 
   .act-img-1 {
     object-fit: cover;
     object-position: center;
-    height: 180px;
+    height: 150px;
     width: 100%;
     border-radius: 12px;
+  }
+
+  .act-card-2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 8px 5px gray;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 5px 25px 20px;
+    padding: 0;
+    width: 300px;
   }
 
   .act-img-2 {
     object-fit: cover;
     object-position: center;
-    height: 180px;
-    width: 680px;
+    height: 150px;
+    width: 100%;
     border-radius: 12px;
   }
 
@@ -769,7 +807,7 @@ li {
     object-fit: cover;
     object-position: center;
     height: 180px;
-    width: 680px;
+    width: 100%;
     border-radius: 12px;
   }
 
