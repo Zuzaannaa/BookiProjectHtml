@@ -518,7 +518,12 @@ li {
 
 @media only screen and (max-width: 768px) {
   body {
-    width: 100%;
+    width: 98%;
+    margin: 2%;
+  }
+
+  header {
+    margin: 0;
   }
 
   .links {
@@ -560,13 +565,15 @@ li {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    width: 100%;
   }
 
   .find {
     font-weight: bold;
     margin-left: 15px;
-    font-size: 150%;
+    font-size: 125%;
     margin: 15px 15px 15px 15px;
+    width: 100%;
   }
 
   .find-p {
@@ -686,7 +693,7 @@ li {
     border-radius: 15px;
     margin: 10px 5px 25px 20px;
     padding: 0;
-    width: 320px;
+    width: 300px;
   }
 
   .acc-image {
@@ -702,31 +709,44 @@ li {
     padding-left: 10px;
   }
 
+  .popular {
+    width: 97%;
+  }
+
   .popular-card {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: flex-start;
     box-shadow: 5px 5px 8px 5px gray;
     background-color: white;
     border-radius: 15px;
-    margin: 15px 45px 30px 45px;
+    margin: 15px 15px 30px 15px;
     padding: 10px;
+    width: 300px;
   }
 
   .pop-image {
-    width: 150px;
-    height: 150px;
     object-fit: cover;
     border-radius: 12px 0 0 12px;
-    margin-right: 30px;
+    margin-right: 10px;
+  }
+
+  .popular-title {
+    width: 70%;
+  }
+
+  .pop-card-h {
+    font-size: 100%;
+  }
+
+  .pop-card-p {
+    font-size: 70%;
+    margin-right: 50px;
   }
 
   .rating {
     padding-left: 10px;
     padding-bottom: 10px;
-  }
-  .popular {
-    width: 120%;
   }
 
   .act-img-1 {
