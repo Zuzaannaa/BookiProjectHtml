@@ -783,6 +783,10 @@ li {
     border-radius: 12px;
   }
 
+  .acc-2-cards {
+    margin: 0;
+  }
+
   .act-card-2 {
     display: flex;
     flex-flow: column wrap;
@@ -803,10 +807,42 @@ li {
     border-radius: 12px;
   }
 
+  .act-card-3 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 8px 5px gray;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 5px 25px 20px;
+    padding: 0;
+    width: 300px;
+  }
+
   .act-img-3 {
     object-fit: cover;
     object-position: center;
-    height: 180px;
+    height: 150px;
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .act-card-4 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 8px 5px gray;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 5px 25px 20px;
+    padding: 0;
+    width: 300px;
+  }
+
+  .act-img-4 {
+    object-fit: cover;
+    object-position: center;
+    height: 150px;
     width: 100%;
     border-radius: 12px;
   }
@@ -816,7 +852,7 @@ li {
     flex-direction: column;
     justify-content: flex-start;
     background-color: #f2f2f2;
-    width: 120%;
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 20px;
     overflow: hidden;
