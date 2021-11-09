@@ -876,8 +876,8 @@ li {
   }
 }
 
-/* -----tablet----- 
-@media only screen and (min-width: 768px) and (max-width: 992px)  {
+/* -----tablet----- */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .links {
     display: flex;
     justify-content: space-between;
@@ -919,4 +919,47 @@ li {
     justify-content: space-between;
     width: 100%;
   }
-} */
+
+  .box {
+    width: 50%;
+  }
+
+  .filters-h {
+    margin-right: 500px;
+  }
+
+  .filter-4 {
+    margin-top: 10px;
+  }
+
+  .acc-mars {
+    width: 95%;
+  }
+
+  .acc-card {
+    width: 38vw;
+    height: auto;
+  }
+
+  .acc-image {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .popular {
+    width: 95%;
+  }
+
+  .popular-title {
+    margin-right: 500px;
+  }
+
+  .popular-card {
+    width: 75vw;
+    height: auto;
+  }
+
+  .pop-image {
+    width: 35vw;
+  }
+}
